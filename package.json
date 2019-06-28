@@ -1,9 +1,13 @@
 {
   "scripts": {
+    "pretest": "tsc solver.test.ts --module commonjs",
     "test": "mocha *.test.js"
   },
   "dependencies": {
+    "@types/chai": "^4.1.7",
+    "@types/mocha": "^5.2.7",
     "chai": "^4.2.0",
-    "mocha": "^6.1.4"
+    "mocha": "^6.1.4",
+    "typescript": "^3.5.1"
   }
 }

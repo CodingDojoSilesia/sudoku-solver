@@ -13,8 +13,8 @@ Return of the program should be a string as well but with all numbers filled out
 
 ## Installing dependencies
 
-    npm install
+    yarn
 
 ## Running tests
 
-    npm test
+    yarn test
