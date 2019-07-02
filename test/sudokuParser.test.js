@@ -19,7 +19,7 @@ describe("Sudoku string parser", () => {
         [7, n, 3, n, 1, 8, n, n, n]
     ];
 
-    it("Should return 2d array from provided string", () => {
+    it("Should return matrix from provided string", () => {
         chai.assert.deepEqual(parser.parseToArray(unparsedSudoku), parsed);
     });
 });
